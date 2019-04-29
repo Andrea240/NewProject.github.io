@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'PT Sans Regular';
+    src: url('../fonts/PTSans-Regular.eot');
+    src: url('../fonts/PTSans-Regular.eot') format('embedded-opentype'),
+    url('../fonts/PTSans-Regular.woff') format('woff'),
+    url('../fonts/PTSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+@font-face {
+    font-family: 'PT Sans Bold';
+    src: url('PTSans-Bold.eot');
+    src: url('PTSans-Bold.eot?#iefix') format('embedded-opentype'),
+    url('PTSans-Bold.woff') format('woff'),
+    url('PTSans-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    max-width: 1280px;
+    margin: 0px auto;
+}
+.item {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    height: 130px;
+}
+.message_items {
+    display: flex;
+    flex-wrap: wrap;
+}
+li {
+    display: block;
+}
+.message_link {
+    margin: 0px 4.5px;
+}
+.logo {
+    margin: 0px auto;
+}
+.phone_contacts {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-right: 5px;
+}
+.numbers {
+    margin-left: 10px;
+}
+.number {
+    font-family: 'PT Sans Regular';
+    font-size: 18.5px;
+    font-weight: bold;
+    line-height: 18px;
+}
+.menu_items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.punkt_menu {
+    margin: 0px 45px;
+}
+.menu_item {
+    font-family: 'PT Sans Regular';
+    text-decoration: none;
+    font-size: 23px;
+    color: black;
+}
+.punkt_menu:hover .menu_item {
+    border-bottom: 3.5px solid transparent;
+    padding-bottom: 7px;
+    border-image: linear-gradient(90deg, rgb(138, 175, 79), rgb(34, 88, 56));
+    border-image-slice: 1;
+}
