@@ -1,0 +1,14 @@
+@media screen and (min-width:1270px) {
+    .punkt_menu {
+        margin: 0px;
+        width: %
+    }
+}
+@media screen and (min-width:900px) {
+    .punkt_menu {
+        margin: 0px 1%;
+    }
+}
+@media screen and (min-width: 650px) {
+     
+}
